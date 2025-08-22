@@ -1,0 +1,23 @@
+{
+  "name": "bun-static-server",
+  "version": "1.0.0",
+  "description": "Serveur de fichiers statiques avec hot reload utilisant Bun",
+  "main": "static-server.ts",
+  "scripts": {
+    "start": "bun run static-server.ts",
+    "dev": "bun run hot-reload.ts",
+    "test": "echo \"Serveur de test\" && bun run static-server.ts"
+  },
+  "keywords": [
+    "bun",
+    "static-server",
+    "hot-reload",
+    "websocket",
+    "typescript"
+  ],
+  "author": "Assistant Claude",
+  "license": "MIT",
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}
