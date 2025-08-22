@@ -92,6 +92,7 @@ const PUBLIC_DIR = "./public"; // Change to your preferred directory
 - JSON (`.json`)
 - Images (`.png`, `.jpg`, `.jpeg`, `.gif`, `.svg`, `.ico`)
 - Text files (`.txt`)
+- WebAssembly (`.wasm`)
 
 ## Development
 

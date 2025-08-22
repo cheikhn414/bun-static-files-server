@@ -16,7 +16,8 @@ const mimeTypes: Record<string, string> = {
   ".gif": "image/gif",
   ".svg": "image/svg+xml",
   ".ico": "image/x-icon",
-  ".txt": "text/plain"
+  ".txt": "text/plain",
+  ".wasm": "application/wasm"
 };
 
 const clients = new Set<WebSocket>();
